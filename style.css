@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+
+header{
+    background-color: rgb(230, 224, 224);
+    width:  100%; 
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px;
+    
+}
+.logo{
+    text-emphasis: none;
+     color: rgb(205, 92, 92)
+
+}
+.logo{
+    text-decoration: none;
+    text-decoration: uppercase;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.navigation a{ 
+    text-emphasis: none;
+    color: rgb(255,57,51);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+.navigation a:hover{
+color: rgb(250,128,128);
+}
+section{
+    padding: 100px 200px;
+}
+.main{ 
+    
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.main h2{
+    color: rgb(205,92,92);
+    font-size: 4.5em;
+    font-weight: 3000;
+}
+.main h3{
+    color: rgb(97, 97, 95);
+    font-size: 2.5em;
+    font-weight: 1500;
+    margin-top: 10px;
+
+}
+.main-btn{
+    color: aliceblue;
+    background-color: rgb(205,92,92);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9335em 2.1835em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: rgb(255,160,122);
+    transform: scale(1.1);
+}
+.sochelackns a {
+color: rgb(2, 2, 2);
+padding-right: 25px;
+}
+.title{
+    display: flex;
+    color: rgb(205,92,92);
+    justify-content: center;
+    font-size: 3.2em;
+    font-weight: 900;
+    margin-bottom: 30px;
+    
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-direction: wrap;
+
+}
+
+.card{
+    background-color: rgb(248, 248, 248);
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgb(97, 97, 95);
+    border-radius: 10px;
+    padding: 70px;
+    margin: 15px;
+transition: 0.7s ease;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icone{
+    color: rgb(240,128,128);
+    font-size: 4.5em;
+    text-align: center;
+}
+.card{
+    text-align: center;
+}
+.card h3{
+    color: rgb(233,150,122);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+}
+.met22{
+    background-color: #9999;
+    width: 100%;
+    z-index: 999;
+    padding: 150PX 80PX;
+}
+.met22 h4{
+    color: rgb(205,92,92);
+    justify-content: center;
+    font-size: 3.2em;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
